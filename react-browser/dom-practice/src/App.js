@@ -23,7 +23,7 @@ function App() {
       <main className="main text-center">
         <Switch>
           <Route exact path="/" component={Home}/>
-          <Route exact path="/products" component={Products}/>
+          <Route path="/products" component={Products}/>
           <Route exact path="/cart" component={Cart}/>
         </Switch>
       </main>
